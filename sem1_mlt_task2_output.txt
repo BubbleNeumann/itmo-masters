@@ -1,4 +1,3 @@
-num of chapters found: 13
 Chapter 1 top words: [('little', 15), ('way', 11), ('like', 11), ('see', 10), ('think', 9), ('door', 9), ('thought', 8), ('could', 8), ('time', 8), ('one', 8)]
 Chapter 2 top words: [('little', 16), ('mouse', 16), ('said', 12), ('dear', 11), ('go', 11), ('foot', 10), ('thing', 10), ('like', 9), ('oh', 9), ('must', 9)]
 Chapter 3 top words: [('said', 34), ('mouse', 21), ('dodo', 12), ('know', 11), ('one', 8), ('soon', 7), ('long', 6), ('bird', 6), ('dry', 6), ('lory', 6)]

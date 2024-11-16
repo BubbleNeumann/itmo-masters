@@ -1,0 +1,25 @@
+num of chapters found: 13
+Chapter 1 top words: [('little', 15), ('way', 11), ('like', 11), ('see', 10), ('think', 9), ('door', 9), ('thought', 8), ('could', 8), ('time', 8), ('one', 8)]
+Chapter 2 top words: [('little', 16), ('mouse', 16), ('said', 12), ('dear', 11), ('go', 11), ('foot', 10), ('thing', 10), ('like', 9), ('oh', 9), ('must', 9)]
+Chapter 3 top words: [('said', 34), ('mouse', 21), ('dodo', 12), ('know', 11), ('one', 8), ('soon', 7), ('long', 6), ('bird', 6), ('dry', 6), ('lory', 6)]
+Chapter 4 top words: [('little', 23), ('rabbit', 15), ('said', 14), ('one', 14), ('bill', 12), ('heard', 9), ('get', 9), ('sure', 9), ('thought', 9), ('made', 8)]
+Chapter 5 top words: [('said', 52), ('caterpillar', 26), ('serpent', 12), ('pigeon', 12), ('well', 10), ('little', 10), ('minute', 8), ('think', 7), ('size', 7), ('time', 6)]
+Chapter 6 top words: [('said', 47), ('cat', 24), ('like', 16), ('little', 14), ('duchess', 14), ('footman', 12), ('much', 12), ('would', 11), ('baby', 11), ('went', 10)]
+Chapter 7 top words: [('said', 58), ('hatter', 33), ('dormouse', 27), ('march', 21), ('hare', 21), ('time', 17), ('thing', 12), ('one', 10), ('went', 10), ('well', 10)]
+Chapter 8 top words: [('said', 42), ('queen', 37), ('head', 16), ('king', 14), ('three', 11), ('cat', 11), ('went', 10), ('one', 10), ('hedgehog', 10), ('came', 9)]
+Chapter 9 top words: [('said', 57), ('mock', 26), ('turtle', 26), ('gryphon', 20), ('duchess', 19), ('queen', 14), ('went', 13), ('never', 11), ('little', 10), ('moral', 9)]
+Chapter 10 top words: [('said', 45), ('gryphon', 31), ('turtle', 30), ('mock', 28), ('would', 15), ('lobster', 13), ('dance', 13), ('beautiful', 11), ('soup', 11), ('voice', 10)]
+Chapter 11 top words: [('said', 38), ('king', 26), ('hatter', 20), ('court', 15), ('dormouse', 13), ('one', 11), ('queen', 9), ('rabbit', 8), ('thought', 8), ('witness', 8)]
+Chapter 12 top words: [('said', 50), ('king', 22), ('would', 12), ('little', 10), ('queen', 10), ('jury', 9), ('head', 8), ('one', 8), ('white', 8), ('rabbit', 8)]
+
+Top 10 verbs used in sentences with Alice:
+say: 296
+go: 93
+think: 78
+get: 64
+look: 53
+know: 45
+begin: 43
+see: 41
+come: 39
+make: 35

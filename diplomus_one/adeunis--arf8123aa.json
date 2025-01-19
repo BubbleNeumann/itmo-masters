@@ -1,0 +1,73 @@
+{
+    "deduplicationId": "bc0e8c49-51d1-4ebc-b3c1-5259ef9c034a",
+    "time": "2024-03-20T22:08:02.650+00:00",
+    "deviceInfo": {
+        "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+        "tenantName": "wireless",
+        "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+        "applicationName": "general-device",
+        "deviceProfileId": "1886c85a-96bb-4a7f-948d-a6fe8fc9ec1a",
+        "deviceProfileName": "adeunis--arf8123aa-EU863-870",
+        "deviceName": "dc82f4d8-d700-49ca-8137-1d98f736d686",
+        "devEui": "0018b20000026d0d",
+        "deviceClassEnabled": "CLASS_A",
+        "tags": {}
+    },
+    "devAddr": "013517b1",
+    "adr": true,
+    "dr": 0,
+    "fCnt": 303,
+    "fPort": 1,
+    "confirmed": false,
+    "data": "n51QOHlQARIVADdPERBggvE=",
+    "object": {
+        "dl_counter": 17,
+        "hdop": 3,
+        "rssi_dl": -130,
+        "temperature": -99,
+        "gps_quality": "Poor",
+        "battery_level": 4192,
+        "lati_hemisphere": "North",
+        "ul_counter": 79,
+        "snr_dl": -15,
+        "sats": 7,
+        "koterberg": 196.68673141118657,
+        "longitude": 14.858333333333333,
+        "payload": "9F9D5038795001121500374F11106082F1",
+        "long_hemisphere": "East",
+        "latitude": 54.14658333333333
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "262607ccf800f1ad",
+            "uplinkId": 8555,
+            "time": "2024-03-20T22:08:02.650663+00:00",
+            "timeSinceGpsEpoch": "1395007700.650s",
+            "fineTimeSinceGpsEpoch": "1395007700.102470460s",
+            "rssi": -115,
+            "snr": -21.5,
+            "channel": 5,
+            "rfChain": 1,
+            "location": {
+                "latitude": 54.16985,
+                "longitude": 14.85479,
+                "altitude": 220
+            },
+            "context": "ATKQTA==",
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            }
+        }
+    ],
+    "txInfo": {
+        "frequency": 868100000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 12,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}

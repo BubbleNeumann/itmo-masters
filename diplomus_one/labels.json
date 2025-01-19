@@ -1,0 +1,2976 @@
+[
+  {
+    "labels": [
+      {
+        "id": 0,
+        "name": "battery_voltage",
+        "description": "Battery voltage of the sensor device",
+        "key_words": [
+          "batt",
+          "v",
+          "battery"
+        ],
+        "samples": [
+          "batV",
+          "batt_v",
+          "batt_mV",
+          "bat_mV",
+          "Bat_V",
+          "Bat_mV",
+          "batteryVoltage",
+          "vbat",
+          "vBat",
+          "batVoltage",
+          "battery_vol",
+          "battVoltage",
+          "Vbat",
+          "BatV",
+          "BAT_V",
+          "batteryLevel",
+          "battery_level",
+          "batLevel",
+          "[03] Voltage Battery/Input [V]"
+        ],
+        "group_id": 0,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          4.08,
+          4,
+          3.986,
+          3.204
+        ]
+      },
+      {
+        "id": 1,
+        "name": "battery_voltage_mean_24h",
+        "description": "Mean battery voltage in 24 hours of the sensor device",
+        "key_words": [
+          "batt",
+          "v",
+          "voltage",
+          "battery",
+          "mean",
+          "hours"
+        ],
+        "samples": [
+          "battery_voltage_mean_24h"
+        ],
+        "group_id": 0,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 2,
+        "name": "battery_percent",
+        "description": "Battery percent of the sensor device",
+        "key_words": [
+          "batt",
+          "percent",
+          "level",
+          "battery"
+        ],
+        "samples": [
+          "batteryPerc",
+          "battPerc",
+          "battery_capacity_percentage",
+          "batteryCapacity",
+          "battery_health",
+          "Battery"
+        ],
+        "group_id": 0,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          100,
+          94,
+          92,
+          73,
+          57,
+          50,
+          48,
+          34,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "battery_status",
+        "description": "Battery status from sensor",
+        "key_words": [
+          "status",
+          "battery"
+        ],
+        "samples": [
+          "Bat_status"
+        ],
+        "group_id": 0,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          3,
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "name": "outdoor_temperature",
+        "description": "Outdoor temperature from the sensor device",
+        "key_words": [
+          "temperature",
+          "temp",
+          "outdoor",
+          "outside"
+        ],
+        "samples": [
+          "temperatures",
+          "temperature",
+          "temp_SOIL",
+          "TEMP_SOIL",
+          "air_temperature",
+          "Air Temperature",
+          "ambientTemp",
+          "ambient_temperature",
+          "Ambient_Temperature",
+          "barometer_temperature",
+          "temperature_head",
+          "head_temperature",
+          "surface_temperature",
+          "tempC_DS18B20",
+          "TempC_DS18B20",
+          "tempC_SHT",
+          "TempC_SHT",
+          "TempPH",
+          "TempNTU",
+          "SoildTemp5TE",
+          "TempLDO",
+          "temp_Channel",
+          "Temp_Channel",
+          "Leaf_Temperature",
+          "Flow_Temperature",
+          "soil_temperature",
+          "temperature_pt1000",
+          "soil_temperature_at_depth",
+          "waterTemp",
+          "extThermistorTemperature",
+          "TH_Sensor_Temperature",
+          "bleTemp",
+          "sensorTemperature"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          327.67,
+          24.2,
+          22.9,
+          22.2,
+          20.6,
+          20.5,
+          20.43,
+          18.03,
+          4.1,
+          3.8
+        ]
+      },
+      {
+        "id": 5,
+        "name": "internal_temperature",
+        "description": "Internal temperature of the sensore device",
+        "key_words": [
+          "temperature",
+          "temp",
+          "internal",
+          "inside",
+          "cpu",
+          "mcu"
+        ],
+        "samples": [
+          "mcu_temperature",
+          "sensor_temperature_internal",
+          "temperatureBoard",
+          "onboard_temperature",
+          "Lidar_temp",
+          "cpu_temp",
+          "cputemp"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          50.6,
+          50.1,
+          49.6,
+          49.1
+        ]
+      },
+      {
+        "id": 6,
+        "name": "temperature_high_limit",
+        "description": "High temperature limit from the sensore device",
+        "key_words": [
+          "temperature",
+          "temp",
+          "high",
+          "limit",
+          "setpoint",
+          "max"
+        ],
+        "samples": [
+          "TemperatureLimitHigh",
+          "tempMax"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float",
+          "int"
+        ],
+        "values": []
+      },
+      {
+        "id": 7,
+        "name": "external_temperature",
+        "description": "External temperature using an external sensor",
+        "key_words": [
+          "temperature",
+          "temp",
+          "external",
+          "additional"
+        ],
+        "samples": [
+          "TempC_DS",
+          "tempC_DS",
+          "Ext_TempC_SHT"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          327.67
+        ]
+      },
+      {
+        "id": 8,
+        "name": "temperature_high_limit",
+        "description": "High temperature limit from the sensore device",
+        "key_words": [
+          "temperature",
+          "temp",
+          "high",
+          "limit",
+          "setpoint",
+          "max"
+        ],
+        "samples": [
+          "TemperatureLimitHigh",
+          "tempMax"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float",
+          "int"
+        ],
+        "values": []
+      },
+      {
+        "id": 9,
+        "name": "temperature_low_limit",
+        "description": "Low temperature limit from the sensore device",
+        "key_words": [
+          "temperature",
+          "temp",
+          "low",
+          "limit",
+          "setpoint",
+          "min"
+        ],
+        "samples": [
+          "TemperatureLimitLow",
+          "tempMin"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "float",
+          "int"
+        ],
+        "values": []
+      },
+      {
+        "id": 10,
+        "name": "temperature_high_limit_is_exceeded",
+        "description": "Boolean parameter for triggering the high temperature setpoint",
+        "key_words": [
+          "temperature",
+          "bool",
+          "boolean",
+          "temp",
+          "high",
+          "limit",
+          "setpoint",
+          "max",
+          "alarm",
+          "alert"
+        ],
+        "samples": [
+          "tempAlarmLimitHigh",
+          "HighTempAlarm"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "temperature_low_limit_is_exceeded",
+        "description": "Boolean parameter for triggering the low temperature setpoint",
+        "key_words": [
+          "temperature",
+          "bool",
+          "boolean",
+          "temp",
+          "low",
+          "limit",
+          "setpoint",
+          "min",
+          "alarm",
+          "alert"
+        ],
+        "samples": [
+          "tempAlarmLimitLow"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "temperature_alarm_is_active",
+        "description": "Temperature alarm is active",
+        "key_words": [
+          "temperature",
+          "bool",
+          "boolean",
+          "temp",
+          "alarm",
+          "alert",
+          "active"
+        ],
+        "samples": [
+          "TemperatureAlertsEnabled",
+          "temperatureAlertActive",
+          "tempAlarmsEnabled"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "temperature_is_changed",
+        "description": "Boolean parameter of temperature change from the sensor device",
+        "key_words": [
+          "temperature",
+          "bool",
+          "boolean",
+          "temp",
+          "change",
+          "changed"
+        ],
+        "samples": [
+          "temperatureChanged",
+          "tempHumidChanged",
+          "TempChange"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "target_temperature",
+        "description": "The value of the target temperature",
+        "key_words": [
+          "temperature",
+          "target"
+        ],
+        "samples": [
+          "targetTemperature"
+        ],
+        "group_id": 1,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          15
+        ]
+      },
+      {
+        "id": 15,
+        "name": "leak_water",
+        "description": "Water leakage occurrence sensor",
+        "key_words": [
+          "leak",
+          "water",
+          "leakage"
+        ],
+        "samples": [
+          "leak",
+          "leakage_status",
+          "waterleak",
+          "WaterLeak",
+          "WATER_LEAK_STATUS",
+          "water"
+        ],
+        "group_id": 2,
+        "value_types": [
+          "bool",
+          "int"
+        ],
+        "values": [
+          "True",
+          "False",
+          1,
+          0
+        ]
+      },
+      {
+        "id": 16,
+        "name": "leak_time",
+        "description": "Time of occurrence of the leak",
+        "key_words": [
+          "time",
+          "leak",
+          "leakage"
+        ],
+        "samples": [
+          "WATER_LEAK_TIMES"
+        ],
+        "group_id": 2,
+        "value_types": [
+          "datetime",
+          "str"
+        ],
+        "values": []
+      },
+      {
+        "id": 17,
+        "name": "leak_location",
+        "description": "Location of occurrence of the leak",
+        "key_words": [
+          "leak",
+          "location",
+          "leakage"
+        ],
+        "samples": [
+          "WaterLeakLocation"
+        ],
+        "group_id": 2,
+        "value_types": [
+          "str"
+        ],
+        "values": []
+      },
+      {
+        "id": 18,
+        "name": "leak_alarm",
+        "description": "Leak alarm is active",
+        "key_words": [
+          "leak",
+          "leakage",
+          "alarm",
+          "alert",
+          "bool",
+          "boolean"
+        ],
+        "samples": [
+          "TankLeakAlarm"
+        ],
+        "group_id": 2,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "voltage",
+        "description": "Voltage from various sensors",
+        "key_words": [
+          "voltage",
+          "volt",
+          "system",
+          "input"
+        ],
+        "samples": [
+          "voltage",
+          "Voltage",
+          "input_voltage",
+          "capacitor_voltage",
+          "rms_voltage",
+          "voltage-transformer primary",
+          "voltage-transformer secondary",
+          "Volt",
+          "Vol",
+          "Supply_Voltage",
+          "Storage_Voltage",
+          "SystemVoltage",
+          "AVI_V"
+        ],
+        "group_id": 3,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 20,
+        "name": "current",
+        "description": "Current from various sensors",
+        "key_words": [
+          "current",
+          "A",
+          "mA"
+        ],
+        "samples": [
+          "IDC_intput_mA",
+          "idc_intput_mA",
+          "ACI_mA",
+          "current",
+          "Current"
+        ],
+        "group_id": 4,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          2.0
+        ]
+      },
+      {
+        "id": 21,
+        "name": "current_is_change",
+        "description": "Current from various sensors",
+        "key_words": [
+          "current",
+          "A",
+          "mA"
+        ],
+        "samples": [
+          "IDC_intput_mA",
+          "idc_intput_mA",
+          "ACI_mA",
+          "current",
+          "Current"
+        ],
+        "group_id": 4,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          2.0
+        ]
+      },
+      {
+        "id": 22,
+        "name": "window_open",
+        "description": "The sensor indicates that the window is open",
+        "key_words": [
+          "limit_switch",
+          "window",
+          "open"
+        ],
+        "samples": [
+          "openWindow",
+          "window_open",
+          "window_detection"
+        ],
+        "group_id": 5,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "window_close",
+        "description": "The sensor indicates that the window is close",
+        "key_words": [
+          "limit_switch",
+          "window",
+          "close"
+        ],
+        "samples": [],
+        "group_id": 5,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "door_open",
+        "description": "The sensor indicates that the door is open",
+        "key_words": [
+          "limit_switch",
+          "door",
+          "open"
+        ],
+        "samples": [
+          "Door_status",
+          "door_status",
+          "DOOR_OPEN_STATUS"
+        ],
+        "group_id": 5,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "door_close",
+        "description": "The sensor indicates that the door is close",
+        "key_words": [
+          "limit_switch",
+          "door",
+          "close"
+        ],
+        "samples": [
+          "closed"
+        ],
+        "group_id": 5,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "duration_door_open",
+        "description": "Sensor controlling the time and duration of door opening",
+        "key_words": [
+          "limit_switch",
+          "time",
+          "open",
+          "close"
+        ],
+        "samples": [
+          "LAST_DOOR_OPEN_DURATION"
+        ],
+        "group_id": 5,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          302.0,
+          76.0,
+          75.0,
+          49.0
+        ]
+      },
+      {
+        "id": 27,
+        "name": "count_door_openings",
+        "description": "Count of door openings from sensor",
+        "key_words": [
+          "count",
+          "door",
+          "open"
+        ],
+        "samples": [
+          "DOOR_OPEN_TIMES"
+        ],
+        "group_id": 5,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          302
+        ]
+      },
+      {
+        "id": 28,
+        "name": "active_energy",
+        "description": "Active energy from the sensor device",
+        "key_words": [
+          "active",
+          "Active",
+          "energy",
+          "kWh"
+        ],
+        "samples": [
+          "Active Energy Import T"
+        ],
+        "group_id": 6,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 29,
+        "name": "reactive_energy",
+        "description": "Reactive energy from the sensor device",
+        "key_words": [
+          "reactive",
+          "Reactive",
+          "energy",
+          "kWh"
+        ],
+        "samples": [
+          "Reactive Energy Import T",
+          "Reactive Energy Export T"
+        ],
+        "group_id": 6,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 30,
+        "name": "adc_raw",
+        "description": "Raw data from analog to digital (adc) conversion",
+        "key_words": [
+          "adc",
+          "raw",
+          "analog_to_digital"
+        ],
+        "samples": [
+          "ADCRawValue",
+          "ADCRaw"
+        ],
+        "group_id": 7,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 31,
+        "name": "adc_channel_0_V",
+        "description": "Parameters from ADC from channel 0 in volts",
+        "key_words": [
+          "adc",
+          "analog_to_digital",
+          "channel",
+          "volts",
+          "0"
+        ],
+        "samples": [
+          "ADC_CH0V"
+        ],
+        "group_id": 7,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 32,
+        "name": "adc_raw_is_changed",
+        "description": "Raw data from analog to digital (adc) conversion is changed",
+        "key_words": [
+          "adc",
+          "analog_to_digital",
+          "channel",
+          "volts",
+          "0"
+        ],
+        "samples": [
+          "ADCreadValueChange",
+          "ADCRawChange"
+        ],
+        "group_id": 7,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "general_alarm",
+        "description": "Generalized alarm message from the sensor device ",
+        "key_words": [
+          "alarm",
+          "alert",
+          "status"
+        ],
+        "samples": [
+          "Alarm",
+          "Alarm_status",
+          "ALARM",
+          "FaultAlarm"
+        ],
+        "group_id": 8,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "fire_alarm",
+        "description": "Fire alarm message from the sensor device ",
+        "key_words": [
+          "alarm",
+          "alert",
+          "status",
+          "fire"
+        ],
+        "samples": [
+          "FireAlarm",
+          "fire"
+        ],
+        "group_id": 8,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 35,
+        "name": "tamper",
+        "description": "Boolean parameter of unauthorized interference from the sensor device ",
+        "key_words": [
+          "interference",
+          "network",
+          "unauthorized",
+          "bool"
+        ],
+        "samples": [
+          "Tamper"
+        ],
+        "group_id": 9,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 36,
+        "name": "power_watt",
+        "description": "Power/energy from the sensor device",
+        "key_words": [
+          "power",
+          "kW",
+          "watt"
+        ],
+        "samples": [
+          "power",
+          "Power"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          25.0,
+          15.102,
+          12.767,
+          12.555,
+          0.14
+        ]
+      },
+      {
+        "id": 37,
+        "name": "power_count",
+        "description": "Total count of energy sources from the sensor device",
+        "key_words": [
+          "power",
+          "energy",
+          "total",
+          "count"
+        ],
+        "samples": [
+          "powerSourcedCount",
+          "powerUsedCount"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "int"
+        ],
+        "values": []
+      },
+      {
+        "id": 38,
+        "name": "power_pre_hour",
+        "description": "Energy consumed per hour from the sensor device",
+        "key_words": [
+          "power",
+          "energy",
+          "per hour",
+          "consumed"
+        ],
+        "samples": [
+          "powerSourcedPerHour",
+          "powerUsedPerHour"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 39,
+        "name": "power_alarm_no_active",
+        "description": "Total count of energy sources from the sensor device",
+        "key_words": [
+          "power",
+          "energy",
+          "alarm",
+          "alert",
+          "no active",
+          "bool",
+          "boolean"
+        ],
+        "samples": [
+          "PowerOffAlarm"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 40,
+        "name": "power_alarm_is_changed",
+        "description": "Boolean parameter of power change from the sensor device",
+        "key_words": [
+          "power",
+          "energy",
+          "change",
+          "changed",
+          "bool",
+          "boolean"
+        ],
+        "samples": [
+          "PowerChange"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "power_factor",
+        "description": "Value that shows the efficiency of using electrical energy in percentage",
+        "key_words": [
+          "power",
+          "energy",
+          "factor",
+          "percentages",
+          "efficiency"
+        ],
+        "samples": [
+          "factor"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          100
+        ]
+      },
+      {
+        "id": 42,
+        "name": "power_consumption",
+        "description": "Total energy consumed in watt-hours",
+        "key_words": [
+          "power",
+          "kW",
+          "watt",
+          "consumption"
+        ],
+        "samples": [
+          "power_sum"
+        ],
+        "group_id": 10,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          27867.0
+        ]
+      },
+      {
+        "id": 43,
+        "name": "humidity_percent",
+        "description": "Humidity percent from the sensor device",
+        "key_words": [
+          "humidity",
+          "percent",
+          "hum",
+          "Humi"
+        ],
+        "samples": [
+          "humidity",
+          "Humi",
+          "Humidity",
+          "air_humidity",
+          "humNOW",
+          "humidity_percentage",
+          "ambient_humidity",
+          "relative_humidity",
+          "relativeHumidity",
+          "RelativeHumidity",
+          "Hum_SHT",
+          "hum_SHT",
+          "EC5SoildHumi",
+          "SoildHumi5TE",
+          "TH_Sensor_Humidity"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          100.0,
+          91.6,
+          86.5,
+          67.5,
+          61.9,
+          51.5,
+          44.0,
+          43.5,
+          21.0,
+          0.0
+        ]
+      },
+      {
+        "id": 44,
+        "name": "external_humidity_percent",
+        "description": "External humidity percent from the sensor device",
+        "key_words": [
+          "humidity",
+          "percent",
+          "hum",
+          "Humi",
+          "external"
+        ],
+        "samples": [
+          "Ext_Hum_SHT"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          100.0,
+          91.6,
+          86.5,
+          67.5,
+          61.9,
+          51.5,
+          44.0,
+          43.5,
+          21.0,
+          0.0
+        ]
+      },
+      {
+        "id": 45,
+        "name": "humidity_high_limit",
+        "description": "High humidity limit from the sensore device",
+        "key_words": [
+          "humidity",
+          "hum",
+          "Humi",
+          "high",
+          "limit",
+          "setpoint",
+          "max"
+        ],
+        "samples": [
+          "HumidityLimitHigh",
+          "humMax"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 46,
+        "name": "humidity_low_limit",
+        "description": "Low humidity limit from the sensore device",
+        "key_words": [
+          "humidity",
+          "hum",
+          "Humi",
+          "low",
+          "limit",
+          "setpoint",
+          "min"
+        ],
+        "samples": [
+          "HumidityLimitLow",
+          "humMin"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 47,
+        "name": "humidity_high_limit_is_exceeded",
+        "description": "Boolean parameter for triggering the high humidity setpoint",
+        "key_words": [
+          "humidity",
+          "bool",
+          "boolean",
+          "hum",
+          "high",
+          "limit",
+          "setpoint",
+          "max",
+          "alarm",
+          "alert"
+        ],
+        "samples": [
+          "humidityAlarmLimitHigh"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "humidity_low_limit_is_exceeded",
+        "description": "Boolean parameter for triggering the low humidity setpoint",
+        "key_words": [
+          "humidity",
+          "bool",
+          "boolean",
+          "hum",
+          "low",
+          "limit",
+          "setpoint",
+          "min",
+          "alarm",
+          "alert"
+        ],
+        "samples": [
+          "humidityAlarmLimitLow"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "humidity_alarm_is_active",
+        "description": "Humidity alarm is active",
+        "key_words": [
+          "humidity_status",
+          "bool",
+          "boolean",
+          "hum",
+          "alarm",
+          "alert",
+          "active"
+        ],
+        "samples": [
+          "humidityAlarmsEnabled",
+          "HumidityAlertsEnabled",
+          "humidityAlertActive"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 50,
+        "name": "humidity_is_changed",
+        "description": "Boolean parameter of humidity change from the sensor device",
+        "key_words": [
+          "humidity",
+          "bool",
+          "boolean",
+          "hum",
+          "change",
+          "changed"
+        ],
+        "samples": [
+          "humidityChanged",
+          "HumiChange"
+        ],
+        "group_id": 11,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 51,
+        "name": "atmospheric_pressure",
+        "description": "Outdoor pressure from the sensor device",
+        "key_words": [
+          "pressure",
+          "atmospheric",
+          "outdoor",
+          "barometric"
+        ],
+        "samples": [
+          "atmospheric_pressure",
+          "ambient_pressure",
+          "barometric_pressure"
+        ],
+        "group_id": 12,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 52,
+        "name": "air_pressure",
+        "description": "Air pressure in various systems from the sensor device",
+        "key_words": [
+          "pressure",
+          "system",
+          "air",
+          "vapor"
+        ],
+        "samples": [
+          "vapor_pressure",
+          "AirPressure"
+        ],
+        "group_id": 12,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 53,
+        "name": "air_pressure_is_changed",
+        "description": "Boolean parameter of air pressure change from the sensor device",
+        "key_words": [
+          "pressure",
+          "air",
+          "vapor",
+          "bool",
+          "boolean",
+          "change",
+          "changed"
+        ],
+        "samples": [
+          "AirPressureChange"
+        ],
+        "group_id": 12,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "co2_concentration",
+        "description": "Carbon dioxide concentration from the sensor device",
+        "key_words": [
+          "co2",
+          "concentration"
+        ],
+        "samples": [
+          "co2_concentration",
+          "co2_concentration_lpf",
+          "CO2_ppm"
+        ],
+        "group_id": 13,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          1008.0,
+          1003.0,
+          990.0,
+          630.0
+        ]
+      },
+      {
+        "id": 55,
+        "name": "eco2_concentration",
+        "description": "Carbon dioxide equivalent concentration from the sensor device",
+        "key_words": [
+          "eco2",
+          "concentration"
+        ],
+        "samples": [
+          "eco2"
+        ],
+        "group_id": 13,
+        "value_types": [
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 56,
+        "name": "co2_is_filtered",
+        "description": "Boolean parameter of co2 filtration parameter from the sensor device",
+        "key_words": [
+          "co2",
+          "filtration",
+          "filtered"
+        ],
+        "samples": [
+          "CO2Filtered"
+        ],
+        "group_id": 13,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 57,
+        "name": "co2_is_raw",
+        "description": "Boolean parameter of co2 raw parameter from the sensor device",
+        "key_words": [
+          "co2",
+          "raw"
+        ],
+        "samples": [
+          "CO2Raw"
+        ],
+        "group_id": 13,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 58,
+        "name": "pm2.5_mass_concentration",
+        "description": "Mass concentration of particles smaller than 2.5 micrometers from the sensor device",
+        "key_words": [
+          "pm2_5",
+          "pm2.5",
+          "pm25",
+          "mass_concentration",
+          "mass"
+        ],
+        "samples": [
+          "pm2_5_mass_concentration"
+        ],
+        "group_id": 14,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 59,
+        "name": "pm2.5_number_concentration",
+        "description": "Number concentration of particles smaller than 2.5 micrometers from the sensor device",
+        "key_words": [
+          "pm2_5",
+          "pm2.5",
+          "pm25",
+          "number_concentration",
+          "particles",
+          "number"
+        ],
+        "samples": [
+          "pm2_5_number_concentration"
+        ],
+        "group_id": 14,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 60,
+        "name": "pm10_mass_concentration",
+        "description": "Mass concentration of particles smaller than 10 micrometers from the sensor device",
+        "key_words": [
+          "pm10",
+          "pm1_0",
+          "pm1",
+          "mass_concentration",
+          "mass"
+        ],
+        "samples": [
+          "pm10_mass_concentration"
+        ],
+        "group_id": 15,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 61,
+        "name": "pm10_number_concentration",
+        "description": "Number concentration of particles smaller than 10 micrometers from the sensor device",
+        "key_words": [
+          "pm10",
+          "pm1_0",
+          "pm1",
+          "number_concentration",
+          "particles",
+          "number"
+        ],
+        "samples": [],
+        "group_id": 15,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 62,
+        "name": "tvoc_concentration",
+        "description": "Concentration of volatile organic compounds from the sensor device",
+        "key_words": [
+          "tvoc",
+          "voc",
+          "concentration"
+        ],
+        "samples": [
+          "tvoc",
+          "TVOC",
+          "TVOC_VOC",
+          "TVOC_ppb"
+        ],
+        "group_id": 16,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 63,
+        "name": "tvoc_is_changed",
+        "description": "Boolean parameter of volatile organic compounds change from the sensor device",
+        "key_words": [
+          "tvoc",
+          "voc",
+          "bool",
+          "boolean",
+          "change",
+          "changed"
+        ],
+        "samples": [
+          "TVOC_VOCChange"
+        ],
+        "group_id": 16,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "rssi_dBm",
+        "description": "Received signal strength indicator in decibels from the sensor device",
+        "key_words": [
+          "rssi",
+          "dBm",
+          "received",
+          "signal"
+        ],
+        "samples": [
+          "rssi",
+          "rssi_dl",
+          "Rssi",
+          "RSSI",
+          "Beacon_RSSI"
+        ],
+        "group_id": 17,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": [
+          75.0,
+          3,
+          -43.0,
+          -45.0,
+          -82.0,
+          -84.0,
+          -115.0,
+          -130.0
+        ]
+      },
+      {
+        "id": 65,
+        "name": "rssi_low_limit",
+        "description": "High low limit from the sensore device",
+        "key_words": [
+          "rssi",
+          "low",
+          "limit",
+          "setpoint",
+          "min"
+        ],
+        "samples": [
+          "rssilimit"
+        ],
+        "group_id": 17,
+        "value_types": [
+          "float",
+          "int"
+        ],
+        "values": []
+      },
+      {
+        "id": 66,
+        "name": "rssi_and_snr_is_supported",
+        "description": "Support rssi and snr from the sensore device",
+        "key_words": [
+          "rssi",
+          "snr",
+          "supported",
+          "exist",
+          "bool",
+          "boolean"
+        ],
+        "samples": [
+          "RSSIAndSNR"
+        ],
+        "group_id": 17,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 67,
+        "name": "snr_ratio",
+        "description": "Signal-to-Noise Ratio from the sensor device",
+        "key_words": [
+          "snr",
+          "singal",
+          "noise"
+        ],
+        "samples": [
+          "snr",
+          "Snr",
+          "SNR",
+          "snr_dl"
+        ],
+        "group_id": 18,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": [
+          14.25,
+          12.2,
+          11.5,
+          9.8,
+          2.0,
+          -0.5,
+          -3.5,
+          -15.0,
+          -17.8,
+          -19.8,
+          -22.0,
+          -23.0
+        ]
+      },
+      {
+        "id": 68,
+        "name": "latitude",
+        "description": "Latitude from the sensor device",
+        "key_words": [
+          "latitude",
+          "deg",
+          "degree"
+        ],
+        "samples": [
+          "Latitude",
+          "latitude",
+          "latitudeDeg",
+          "gpsLat",
+          "Lat"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          60.01845,
+          55.65083,
+          53.08058,
+          51.85535,
+          50.66978,
+          49.99105,
+          49.45596,
+          46.92461,
+          42.07227
+        ]
+      },
+      {
+        "id": 69,
+        "name": "lati_hemisphere",
+        "description": "Hemispheric information relative to latitude from the sensor device",
+        "key_words": [
+          "Hemispheric",
+          "Earth",
+          "planet",
+          "south",
+          "noth",
+          "latitude"
+        ],
+        "samples": [
+          "lati_hemisphere"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "North",
+          "South",
+          "N",
+          "S"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "longitude",
+        "description": "Longitude from the sensor device",
+        "key_words": [
+          "longitude",
+          "deg",
+          "degree"
+        ],
+        "samples": [
+          "Longitude",
+          "longitude",
+          "longitudeDeg",
+          "gpsLong",
+          "Lon",
+          "lon"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "float"
+        ],
+        "values": [
+          50.20402,
+          44.863507,
+          37.388073,
+          30.275145,
+          13.253583,
+          11.35489,
+          9.32412,
+          8.45268,
+          7.124072,
+          -122.02686
+        ]
+      },
+      {
+        "id": 71,
+        "name": "long_hemisphere",
+        "description": "Hemispheric information relative to longitude from the sensor device",
+        "key_words": [
+          "Hemispheric",
+          "Earth",
+          "planet",
+          "east",
+          "west",
+          "longitude"
+        ],
+        "samples": [
+          "lati_hemisphere"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "East",
+          "West",
+          "E",
+          "W"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "longitude_dmm",
+        "description": "Longitude in degrees and minutes from the sensor device",
+        "key_words": [
+          "longitude",
+          "deg",
+          "degree",
+          "minutes",
+          "E"
+        ],
+        "samples": [
+          "longitude_dmm"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "E 011\u0436\u040b\u045621.50"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "latitude_dmm",
+        "description": "Latitude in degrees and minutes from the sensor device",
+        "key_words": [
+          "latitude",
+          "deg",
+          "degree",
+          "minutes",
+          "N"
+        ],
+        "samples": [
+          "latitude_dmm"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "N 50\u0436\u040b\u045638.795"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "altitude",
+        "description": "Heights above sea level from sensor",
+        "key_words": [
+          "altitude",
+          "m",
+          "meters"
+        ],
+        "samples": [
+          "altitude"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          290
+        ]
+      },
+      {
+        "id": 75,
+        "name": "satellites_number",
+        "description": "The number of satellites used for location determination",
+        "key_words": [
+          "satellites",
+          "count",
+          "numbers"
+        ],
+        "samples": [
+          "sats"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          18
+        ]
+      },
+      {
+        "id": 76,
+        "name": "gnss_is_supported",
+        "description": "Parameter indicating the presence of a GNSS signal fixation",
+        "key_words": [
+          "gnss",
+          "supported"
+        ],
+        "samples": [
+          "gnss_fix"
+        ],
+        "group_id": 19,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 77,
+        "name": "illuminance_lx",
+        "description": "Illuminance in lux from the sensor device",
+        "key_words": [
+          "illuminance",
+          "light",
+          "lux"
+        ],
+        "samples": [
+          "Lux",
+          "lux",
+          "light"
+        ],
+        "group_id": 20,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 78,
+        "name": "illumination_setpoint",
+        "description": "Parameter that indicates an excess of the illumination setpoint",
+        "key_words": [
+          "setpoint",
+          "light"
+        ],
+        "samples": [
+          "daylight"
+        ],
+        "group_id": 20,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 79,
+        "name": "water_usage_value",
+        "description": "Value of water flow rate from the sensor device",
+        "key_words": [
+          "water",
+          "usage",
+          "flow"
+        ],
+        "samples": [
+          "water_flow_value",
+          "Water_flow_value"
+        ],
+        "group_id": 21,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 80,
+        "name": "distance_usual",
+        "description": "Distance between two points from the sensor device",
+        "key_words": [
+          "distance",
+          "between",
+          "points"
+        ],
+        "samples": [
+          "distance",
+          "Distance",
+          "Lidar_distance",
+          "distance_most_frequent_value",
+          "distance_cm",
+          "lightning_average_distance"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": [
+          0,
+          1.32,
+          10.95,
+          11.73,
+          47.83,
+          100.34,
+          283.02,
+          838.83
+        ]
+      },
+      {
+        "id": 81,
+        "name": "distance_total",
+        "description": "Total distance from the sensor device",
+        "key_words": [
+          "distance",
+          "total"
+        ],
+        "samples": [
+          "totalDistance"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": [
+          0,
+          8.7,
+          4255.84,
+          61456.98,
+          8309489,
+          11396820,
+          1333007000
+        ]
+      },
+      {
+        "id": 82,
+        "name": "distance_average",
+        "description": "Average distance from the sensor device",
+        "key_words": [
+          "distance",
+          "average"
+        ],
+        "samples": [
+          "distance_average"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 83,
+        "name": "distance_median",
+        "description": "Median distance from the sensor device",
+        "key_words": [
+          "median",
+          "distance"
+        ],
+        "samples": [
+          "distance_median"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 84,
+        "name": "distance_maximum",
+        "description": "Maximum distance from the sensor device",
+        "key_words": [
+          "maximum",
+          "distance"
+        ],
+        "samples": [
+          "distance_maximum"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 85,
+        "name": "distance_minimum",
+        "description": "Minimum distance from the sensor device",
+        "key_words": [
+          "distance",
+          "minimum"
+        ],
+        "samples": [
+          "distance_minimum"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 86,
+        "name": "distance_alarm",
+        "description": "Alarm distance from the sensor device",
+        "key_words": [
+          "distance",
+          "alarm",
+          "threshold"
+        ],
+        "samples": [
+          "OnDistanceThreshold",
+          "DeadZoneDistance",
+          "Distance_alarm"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "int",
+          "float"
+        ],
+        "values": []
+      },
+      {
+        "id": 87,
+        "name": "distance_is_changed",
+        "description": "Boolean parameter of distance change from the sensor device",
+        "key_words": [
+          "distance",
+          "bool",
+          "boolean",
+          "change",
+          "changed"
+        ],
+        "samples": [
+          "DistanceChange"
+        ],
+        "group_id": 22,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 88,
+        "name": "ram_used",
+        "description": "Display memory than used in RAM",
+        "key_words": [
+          "ram",
+          "used",
+          "memory"
+        ],
+        "samples": [
+          "ram_used"
+        ],
+        "group_id": 23,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          1990,
+          1988,
+          1987,
+          1977
+        ]
+      },
+      {
+        "id": 89,
+        "name": "ram_total",
+        "description": "Display all RAM memory",
+        "key_words": [
+          "ram",
+          "total",
+          "memory"
+        ],
+        "samples": [
+          "ram_total"
+        ],
+        "group_id": 23,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          78112
+        ]
+      },
+      {
+        "id": 90,
+        "name": "ram_free",
+        "description": "Display free RAM memory",
+        "key_words": [
+          "ram",
+          "free",
+          "memory"
+        ],
+        "samples": [
+          "ram_free"
+        ],
+        "group_id": 23,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          74208,
+          74210,
+          74222
+        ]
+      },
+      {
+        "id": 91,
+        "name": "cpu_usage",
+        "description": "Display CPU usage in relation to the power of 1 core",
+        "key_words": [
+          "cpu",
+          "usage"
+        ],
+        "samples": [
+          "cpu_usage"
+        ],
+        "group_id": 24,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          0,
+          83,
+          100,
+          111,
+          154,
+          200
+        ]
+      },
+      {
+        "id": 92,
+        "name": "LoRaWAN_configuration",
+        "description": "Configuration of the Long Range Wide Area Network (LoRaWAN)",
+        "key_words": [
+          "LoRaWAN",
+          "configuration",
+          "network"
+        ],
+        "samples": [
+          "LoRaWANConfiguration"
+        ],
+        "group_id": 25,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 93,
+        "name": "LoRaWAN_configuration_status",
+        "description": "Status of configuration of the Long Range Wide Area Network (LoRaWAN)",
+        "key_words": [
+          "LoRaWAN",
+          "configuration",
+          "status",
+          "network"
+        ],
+        "samples": [
+          "Status_LoRaWAN_Configuration_State"
+        ],
+        "group_id": 25,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 94,
+        "name": "LoRaWAN_version",
+        "description": "Version of the Long Range Wide Area Network (LoRaWAN)",
+        "key_words": [
+          "LoRaWAN",
+          "version",
+          "network"
+        ],
+        "samples": [
+          "LoRaWANVersion"
+        ],
+        "group_id": 25,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 95,
+        "name": "LoRaWAN_activation_status",
+        "description": "Status of activation of the Long Range Wide Area Network (LoRaWAN)",
+        "key_words": [
+          "LoRaWAN",
+          "activation",
+          "status",
+          "network"
+        ],
+        "samples": [
+          "Status_LoRaWAN_Activation_State"
+        ],
+        "group_id": 25,
+        "value_types": [],
+        "values": []
+      },
+      {
+        "id": 96,
+        "name": "external_sensors_exist",
+        "description": "External devices are connected to the main sensor",
+        "key_words": [
+          "external",
+          "exist"
+        ],
+        "samples": [
+          "ext"
+        ],
+        "group_id": 26,
+        "value_types": [
+          "int",
+          "bool"
+        ],
+        "values": [
+          1,
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 97,
+        "name": "external_button",
+        "description": "External button exists",
+        "key_words": [
+          "external",
+          "exist"
+        ],
+        "samples": [
+          "ext_btn"
+        ],
+        "group_id": 26,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": 98,
+        "name": "sensor_modification",
+        "description": "Selected sensor modification",
+        "key_words": [
+          "modification",
+          "mode"
+        ],
+        "samples": [
+          "Work_mode"
+        ],
+        "group_id": 27,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "SHT31 Sensor"
+        ]
+      },
+      {
+        "id": 99,
+        "name": "payload_version",
+        "description": "Version of payload from sensor",
+        "key_words": [
+          "version",
+          "payload"
+        ],
+        "samples": [
+          "[02] Payload Version"
+        ],
+        "group_id": 27,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          2
+        ]
+      },
+      {
+        "id": 100,
+        "name": "payload_hex",
+        "description": "The complete payload signal, presented in hexadecimal format",
+        "key_words": [
+          "version",
+          "payload"
+        ],
+        "samples": [
+          "[99] Complete payload [hex]",
+          "payload"
+        ],
+        "group_id": 27,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "02013100"
+        ]
+      },
+      {
+        "id": 101,
+        "name": "numerical_reason_code",
+        "description": "The numerical reason code for sending the message",
+        "key_words": [
+          "reason",
+          "code",
+          "number"
+        ],
+        "samples": [
+          "reason"
+        ],
+        "group_id": 30,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          81
+        ]
+      },
+      {
+        "id": 102,
+        "name": "string_reason_code",
+        "description": "The string reason code for sending the message",
+        "key_words": [
+          "reason",
+          "code"
+        ],
+        "samples": [
+          "[04] OpCode"
+        ],
+        "group_id": 30,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "Heartbeat"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "is_available",
+        "description": "Boolean parameter of availability",
+        "key_words": [
+          "available",
+          "boolean",
+          "online"
+        ],
+        "samples": [
+          "batteryLevelUnavailable",
+          "perceiveAsOnline"
+        ],
+        "group_id": 31,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "battery_is_alive",
+        "description": "Boolean battery life parameter",
+        "key_words": [
+          "batt",
+          "Boolean",
+          "alive"
+        ],
+        "samples": [
+          "Good_Battery",
+          "BatteryChange"
+        ],
+        "group_id": 32,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 105,
+        "name": "sensor_is_broken",
+        "description": "Boolean parameter indicating a sensor unserviceability",
+        "key_words": [
+          "Boolean",
+          "broken",
+          "sensor"
+        ],
+        "samples": [
+          "brokenSensor"
+        ],
+        "group_id": 32,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 106,
+        "name": "high_consumption_energy",
+        "description": "Boolean parameter of high motor energy consumption",
+        "key_words": [
+          "consumption",
+          "boolean",
+          "high",
+          "energy",
+          "motor"
+        ],
+        "samples": [
+          "highMotorConsumption"
+        ],
+        "group_id": 33,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 107,
+        "name": "low_consumption_energy",
+        "description": "Boolean parameter of low motor energy consumption",
+        "key_words": [
+          "consumption",
+          "boolean",
+          "low",
+          "energy",
+          "motor"
+        ],
+        "samples": [
+          "lowMotorConsumption"
+        ],
+        "group_id": 33,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 108,
+        "name": "attached_backplate",
+        "description": "Boolean parameter of attached back plate",
+        "key_words": [
+          "backplate",
+          "boolean"
+        ],
+        "samples": [
+          "attachedBackplate"
+        ],
+        "group_id": 33,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 109,
+        "name": "motor_position",
+        "description": "The position of the motor from the sensor",
+        "key_words": [
+          "position",
+          "motor"
+        ],
+        "samples": [
+          "motorPosition"
+        ],
+        "group_id": 33,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          404
+        ]
+      },
+      {
+        "id": 110,
+        "name": "motor_range",
+        "description": "Range of motor positions",
+        "key_words": [
+          "range",
+          "motor"
+        ],
+        "samples": [
+          "motorRange"
+        ],
+        "group_id": 33,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          404
+        ]
+      },
+      {
+        "id": 111,
+        "name": "calibration_error",
+        "description": "Calibration has occurred with an error",
+        "key_words": [
+          "calibration",
+          "error"
+        ],
+        "samples": [
+          "calibrationFailed"
+        ],
+        "group_id": 34,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "common_error_count",
+        "description": "This parameter indicates the number of errors recorded by the device",
+        "key_words": [
+          "error",
+          "count"
+        ],
+        "samples": [
+          "err_count"
+        ],
+        "group_id": 34,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          0
+        ]
+      },
+      {
+        "id": 113,
+        "name": "child_protection",
+        "description": "Boolean parameter indicating whether child lock is enabled",
+        "key_words": [
+          "child",
+          "lock"
+        ],
+        "samples": [
+          "childLock"
+        ],
+        "group_id": 35,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 114,
+        "name": "state",
+        "description": "The state of the device, which can be turned off or turned on",
+        "key_words": [
+          "state",
+          "turn",
+          "on",
+          "off"
+        ],
+        "samples": [
+          "state"
+        ],
+        "group_id": 36,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "ON",
+          "OFF"
+        ]
+      },
+      {
+        "id": 115,
+        "name": "motion_detected",
+        "description": "The sensor indicates the presence or absence of motion detection using a passive infrared sensor(PIR)",
+        "key_words": [
+          "presence",
+          "absence",
+          "motion"
+        ],
+        "samples": [
+          "pir"
+        ],
+        "group_id": 37,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "port_number",
+        "description": "Port number from sensor",
+        "key_words": [
+          "port",
+          "number"
+        ],
+        "samples": [
+          "[01] Port"
+        ],
+        "group_id": 38,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          1
+        ]
+      },
+      {
+        "id": 117,
+        "name": "accuracy_coordinates",
+        "description": "Accuracy of determining GPS coordinates, measured in meters",
+        "key_words": [
+          "accuracy",
+          "meters",
+          "m"
+        ],
+        "samples": [
+          "accuracy"
+        ],
+        "group_id": 39,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          0.8
+        ]
+      },
+      {
+        "id": 118,
+        "name": "horizontal_dilution_precision",
+        "description": "Horizontal geometric reduction in precision",
+        "key_words": [
+          "horizontal",
+          "reduction",
+          "precision"
+        ],
+        "samples": [
+          "hdop"
+        ],
+        "group_id": 39,
+        "value_types": [
+          "int"
+        ],
+        "values": [
+          0.6
+        ]
+      },
+      {
+        "id": 119,
+        "name": "is_validated",
+        "description": "Parameter indicates the validity of the data",
+        "key_words": [
+          "validation",
+          "approved"
+        ],
+        "samples": [
+          "valid"
+        ],
+        "group_id": 40,
+        "value_types": [
+          "bool"
+        ],
+        "values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "id": 120,
+        "name": "events_list",
+        "description": "An array containing the statuses of various events detected by the sensor",
+        "key_words": [
+          "event",
+          "list"
+        ],
+        "samples": [
+          "Event Status",
+          "bytes"
+        ],
+        "group_id": 41,
+        "value_types": [
+          "list"
+        ],
+        "values": []
+      },
+      {
+        "id": 121,
+        "name": "timestamp",
+        "description": "Time stamp received from the sensor",
+        "key_words": [
+          "time",
+          "stamp"
+        ],
+        "samples": [
+          "time",
+          "deviceTime",
+          "fixTime"
+        ],
+        "group_id": 42,
+        "value_types": [
+          "str"
+        ],
+        "values": [
+          "2024-03-20T22:08:02.650+00:00",
+          "2024-03-20T22:17:24.572+00:00",
+          "2024-03-20T22:17:24.572226+00:00"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": 0,
+        "name": "battery_status"
+      },
+      {
+        "id": 1,
+        "name": "temperature"
+      },
+      {
+        "id": 2,
+        "name": "leak"
+      },
+      {
+        "id": 3,
+        "name": "voltage"
+      },
+      {
+        "id": 4,
+        "name": "current"
+      },
+      {
+        "id": 5,
+        "name": "limit_switch"
+      },
+      {
+        "id": 6,
+        "name": "energy"
+      },
+      {
+        "id": 7,
+        "name": "adc"
+      },
+      {
+        "id": 8,
+        "name": "alarm"
+      },
+      {
+        "id": 9,
+        "name": "information_security"
+      },
+      {
+        "id": 10,
+        "name": "power"
+      },
+      {
+        "id": 11,
+        "name": "humidity_status"
+      },
+      {
+        "id": 12,
+        "name": "pressure"
+      },
+      {
+        "id": 13,
+        "name": "co2"
+      },
+      {
+        "id": 14,
+        "name": "pm2.5"
+      },
+      {
+        "id": 15,
+        "name": "pm10"
+      },
+      {
+        "id": 16,
+        "name": "tvoc"
+      },
+      {
+        "id": 17,
+        "name": "rssi"
+      },
+      {
+        "id": 18,
+        "name": "snr"
+      },
+      {
+        "id": 19,
+        "name": "location"
+      },
+      {
+        "id": 20,
+        "name": "illumination_level"
+      },
+      {
+        "id": 21,
+        "name": "water_usage"
+      },
+      {
+        "id": 22,
+        "name": "distance"
+      },
+      {
+        "id": 23,
+        "name": "ram"
+      },
+      {
+        "id": 24,
+        "name": "cpu"
+      },
+      {
+        "id": 25,
+        "name": "LoRaWAN"
+      },
+      {
+        "id": 26,
+        "name": "additional_devices"
+      },
+      {
+        "id": 27,
+        "name": "modification"
+      },
+      {
+        "id": 28,
+        "name": "versions"
+      },
+      {
+        "id": 29,
+        "name": "encoded_formats"
+      },
+      {
+        "id": 30,
+        "name": "code"
+      },
+      {
+        "id": 31,
+        "name": "availability"
+      },
+      {
+        "id": 32,
+        "name": "serviceability"
+      },
+      {
+        "id": 33,
+        "name": "motor"
+      },
+      {
+        "id": 34,
+        "name": "errors"
+      },
+      {
+        "id": 35,
+        "name": "protections"
+      },
+      {
+        "id": 36,
+        "name": "status"
+      },
+      {
+        "id": 37,
+        "name": "motion"
+      },
+      {
+        "id": 38,
+        "name": "ports"
+      },
+      {
+        "id": 39,
+        "name": "metrics"
+      },
+      {
+        "id": 40,
+        "name": "validation"
+      },
+      {
+        "id": 41,
+        "name": "events"
+      },
+      {
+        "id": 42,
+        "name": "time"
+      }
+    ]
+  }
+]

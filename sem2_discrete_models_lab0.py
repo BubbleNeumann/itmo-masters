@@ -10,7 +10,7 @@ const2 = 5
 
 
 # continuous
-def model(v, t):
+def model(v, _):
 	X, Y = v
 	return [const1 + Y, const2 - X]
 
@@ -22,8 +22,8 @@ plot(t, X_cont, ".-", lw=2, color="red", alpha=0.8, label="X continuous")
 plot(t, Y_cont, ".-", lw=2, color="orange", alpha=0.8, label="Y continuous")
 
 # discrete
-# X_{n+1} = X_n + (const1 + Y_n) * step
-# Y_{n+1} = Y_n + (const2 - X_n) * step
+# X(n+1) = Xn + (const1 + Yn) * step
+# Y(n+1) = Yn + (const2 - Xn) * step
 X_disc = [0]
 Y_disc = [0]
 for i in range(len(t) - 1):
@@ -37,7 +37,6 @@ plot(t, Y_disc, "--", lw=1, color="green", label="Y discrete")
 
 xlabel("t")
 ylabel("Value")
-xlim(0, max(t))
 legend()
 grid(True)
 show()

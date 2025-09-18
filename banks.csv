@@ -1,0 +1,10 @@
+name;Interest Rate (%);Max Loan Amount($);Origination Fee (%);Late Payment Fee ($);Max Loan Tenure (years);Prepayment Penalty (%)
+JPMorgan Chase;0.01;500000;0;35;7;0
+Bank of America;0.01;806500;0;35;7;0
+HSBC;4.13;15000000;1;38;10;2
+China Construction Bank;3.05;200000;1.5;30;5;3
+Wells Fargo;0.01;100000;0;25;5;0
+Agricultural Bank of China;0.3;150000;2;20;3;4
+Citigroup;3.6;30000;0;40;5;0
+Bank of China;1.5;250000;1;25;7;2
+BNP Paribas;0.3;50000;1.2;35;10;1

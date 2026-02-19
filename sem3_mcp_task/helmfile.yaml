@@ -1,0 +1,43 @@
+repositories:
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+
+releases:
+  # Infrastructure
+  - name: kafka
+    chart: bitnami/kafka
+    version: 26.x.x  # latest compatible
+    values:
+      - persistence:
+          enabled: true
+        metrics:
+          jmx:
+            enabled: true  # observability
+
+  - name: spark
+    chart: bitnami/spark
+    version: 9.x.x
+    values:
+      - metrics:
+          enabled: true  # For monitoring
+
+  - name: clickhouse
+    chart: bitnami/clickhouse
+    version: 6.x.x
+    values:
+      - metrics:
+          enabled: true
+
+  # # Your custom MCP servers
+  # - name: mcp-kafka
+  #   chart: ./charts/mcp-kafka  # You create this
+  #   values:
+  #     - image:
+  #         repository: your-registry/mcp-kafka
+  #         tag: latest
+
+  # - name: mcp-spark
+  #   chart: ./charts/mcp-spark  # You create this
+
+  # - name: agent-pipeline
+  #   chart: ./charts/agent-pipeline  # You create this

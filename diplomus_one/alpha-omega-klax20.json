@@ -1,0 +1,1266 @@
+[
+    {
+        "deduplicationId": "f5fdb8e7-09cd-4c47-a884-5d9f32f8caea",
+        "time": "2024-04-01T20:32:45.583+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1613,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVKEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "msgInfo": {
+                "msgCnt": 1,
+                "msgNum": 1,
+                "msgIdx": 74
+            },
+            "header": {
+                "configured": true,
+                "version": 1,
+                "connTest": false,
+                "meterType": "SML",
+                "deviceType": "SML Klax",
+                "batteryPerc": 100
+            },
+            "payloads": [
+                {
+                    "type": "serverID",
+                    "id": "0a01445a4700039f8fd4"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ],
+                        "filterActive": true,
+                        "filterId": 0,
+                        "unit": "Wh"
+                    }
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "unit": "Wh",
+                        "filterActive": true,
+                        "filterId": 1
+                    }
+                }
+            ],
+            "type": "app"
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 5918,
+                "rssi": -52,
+                "snr": 11.8,
+                "channel": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "X8JLcQ==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            },
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 2403,
+                "time": "2024-04-01T20:32:45.583288+00:00",
+                "timeSinceGpsEpoch": "1396038783.583s",
+                "fineTimeSinceGpsEpoch": "1396038783.468437385s",
+                "rssi": -105,
+                "snr": -0.8,
+                "channel": 1,
+                "location": {
+                    "latitude": 55.30156,
+                    "longitude": 12.61867,
+                    "altitude": 251
+                },
+                "context": "F/CCZQ==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "dc49103f-693e-43ca-8b88-8100fb66dc38",
+        "time": "2024-04-01T19:32:46.708+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1612,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVJEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "header": {
+                "configured": true,
+                "deviceType": "SML Klax",
+                "batteryPerc": 100,
+                "version": 1,
+                "connTest": false,
+                "meterType": "SML"
+            },
+            "type": "app",
+            "msgInfo": {
+                "msgIdx": 73,
+                "msgNum": 1,
+                "msgCnt": 1
+            },
+            "payloads": [
+                {
+                    "id": "0a01445a4700039f8fd4",
+                    "type": "serverID"
+                },
+                {
+                    "register": {
+                        "filterId": 0,
+                        "filterActive": true,
+                        "unit": "Wh",
+                        "values": [
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ]
+                    },
+                    "type": "filter"
+                },
+                {
+                    "register": {
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            }
+                        ],
+                        "unit": "Wh",
+                        "filterActive": true,
+                        "filterId": 1
+                    },
+                    "type": "filter"
+                }
+            ]
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 12545,
+                "time": "2024-04-01T19:32:46.708288+00:00",
+                "timeSinceGpsEpoch": "1396035184.708s",
+                "fineTimeSinceGpsEpoch": "1396035184.593437273s",
+                "rssi": -106,
+                "snr": -5.2,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.30161,
+                    "longitude": 12.61867,
+                    "altitude": 261
+                },
+                "context": "0jYdMg==",
+                "metadata": {
+                    "region_config_id": "eu868",
+                    "region_common_name": "EU868"
+                }
+            },
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 40803,
+                "rssi": -51,
+                "snr": 9.2,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "h8Hdnw==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 868500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "9b3fe2f1-c50e-445c-8482-a8ffe1894480",
+        "time": "2024-04-01T18:32:44.852+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1611,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVIEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "header": {
+                "connTest": false,
+                "version": 1,
+                "meterType": "SML",
+                "deviceType": "SML Klax",
+                "batteryPerc": 100,
+                "configured": true
+            },
+            "payloads": [
+                {
+                    "id": "0a01445a4700039f8fd4",
+                    "type": "serverID"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "unit": "Wh",
+                        "values": [
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            }
+                        ],
+                        "filterActive": true,
+                        "filterId": 0
+                    }
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "unit": "Wh",
+                        "filterId": 1,
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "filterActive": true
+                    }
+                }
+            ],
+            "type": "app",
+            "msgInfo": {
+                "msgCnt": 1,
+                "msgNum": 1,
+                "msgIdx": 72
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 36936,
+                "rssi": -51,
+                "snr": 11,
+                "channel": 3,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "PFkA8Q==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            },
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 12123,
+                "time": "2024-04-01T18:32:44.852646+00:00",
+                "timeSinceGpsEpoch": "1396031582.852s",
+                "fineTimeSinceGpsEpoch": "1396031582.737796979s",
+                "rssi": -108,
+                "snr": -8,
+                "channel": 3,
+                "location": {
+                    "latitude": 55.30159,
+                    "longitude": 12.61863,
+                    "altitude": 252
+                },
+                "context": "+4YpDQ==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 867700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "7ac95623-9d0d-4678-b9b0-0a422c3185f4",
+        "time": "2024-04-01T17:32:48.002+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1610,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVHEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "payloads": [
+                {
+                    "type": "serverID",
+                    "id": "0a01445a4700039f8fd4"
+                },
+                {
+                    "register": {
+                        "filterActive": true,
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ],
+                        "filterId": 0,
+                        "unit": "Wh"
+                    },
+                    "type": "filter"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "filterActive": true,
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "filterId": 1,
+                        "unit": "Wh"
+                    }
+                }
+            ],
+            "type": "app",
+            "header": {
+                "meterType": "SML",
+                "deviceType": "SML Klax",
+                "version": 1,
+                "configured": true,
+                "batteryPerc": 100,
+                "connTest": false
+            },
+            "msgInfo": {
+                "msgCnt": 1,
+                "msgIdx": 71,
+                "msgNum": 1
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 49870,
+                "rssi": -51,
+                "snr": 11.2,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "Lm2Uzg==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            },
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 47964,
+                "time": "2024-04-01T17:32:48.001716+00:00",
+                "timeSinceGpsEpoch": "1396027986.002s",
+                "fineTimeSinceGpsEpoch": "1396027986.886866910s",
+                "rssi": -104,
+                "snr": -2.2,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.30157,
+                    "longitude": 12.61866,
+                    "altitude": 251
+                },
+                "context": "JSKSmg==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 868300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "48c07ba9-d469-4978-a0c1-2bea4d9c54fb",
+        "time": "2024-04-01T16:32:48.611639588+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1609,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVGEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "header": {
+                "deviceType": "SML Klax",
+                "configured": true,
+                "version": 1,
+                "batteryPerc": 100,
+                "meterType": "SML",
+                "connTest": false
+            },
+            "payloads": [
+                {
+                    "id": "0a01445a4700039f8fd4",
+                    "type": "serverID"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "filterActive": true,
+                        "filterId": 0,
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ],
+                        "unit": "Wh"
+                    }
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "unit": "Wh",
+                        "filterActive": true,
+                        "filterId": 1,
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "type": "app",
+            "msgInfo": {
+                "msgNum": 1,
+                "msgIdx": 70,
+                "msgCnt": 1
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 8730,
+                "rssi": -52,
+                "snr": 11,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "HEy5Gg==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 868300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "time": "2024-04-01T15:32:49.195+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "level": "WARNING",
+        "code": "UPLINK_F_CNT_RETRANSMISSION",
+        "description": "Uplink was flagged as re-transmission / frame-counter did not increment",
+        "context": {
+            "deduplication_id": "aedd3e0d-9548-403b-9dfb-d6ceea687231"
+        }
+    },
+    {
+        "deduplicationId": "4ad51137-c9f5-416d-9a45-44dec1332492",
+        "time": "2024-04-01T15:32:49.195+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1608,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVFEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "msgInfo": {
+                "msgNum": 1,
+                "msgCnt": 1,
+                "msgIdx": 69
+            },
+            "header": {
+                "batteryPerc": 100,
+                "deviceType": "SML Klax",
+                "configured": true,
+                "version": 1,
+                "meterType": "SML",
+                "connTest": false
+            },
+            "payloads": [
+                {
+                    "type": "serverID",
+                    "id": "0a01445a4700039f8fd4"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "values": [
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            }
+                        ],
+                        "unit": "Wh",
+                        "filterActive": true,
+                        "filterId": 0
+                    }
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "unit": "Wh",
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "filterActive": true,
+                        "filterId": 1
+                    }
+                }
+            ],
+            "type": "app"
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 37497,
+                "time": "2024-04-01T15:32:49.196142+00:00",
+                "timeSinceGpsEpoch": "1396020787.195s",
+                "rssi": -106,
+                "snr": -4.2,
+                "channel": 2,
+                "location": {
+                    "latitude": 55.30161,
+                    "longitude": 12.61863,
+                    "altitude": 256
+                },
+                "context": "AGGPMA==",
+                "metadata": {
+                    "region_config_id": "eu868",
+                    "region_common_name": "EU868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 867500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "d6a62cd6-d0a6-4eed-88e0-8179526c71e7",
+        "time": "2024-04-01T14:32:50.101435201+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1607,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVEEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "header": {
+                "connTest": false,
+                "meterType": "SML",
+                "configured": true,
+                "batteryPerc": 100,
+                "deviceType": "SML Klax",
+                "version": 1
+            },
+            "payloads": [
+                {
+                    "id": "0a01445a4700039f8fd4",
+                    "type": "serverID"
+                },
+                {
+                    "register": {
+                        "filterId": 0,
+                        "filterActive": true,
+                        "unit": "Wh",
+                        "values": [
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ]
+                    },
+                    "type": "filter"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "filterId": 1,
+                        "unit": "Wh",
+                        "filterActive": true
+                    }
+                }
+            ],
+            "type": "app",
+            "msgInfo": {
+                "msgIdx": 68,
+                "msgCnt": 1,
+                "msgNum": 1
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 36639,
+                "rssi": -52,
+                "snr": 11.2,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "mEcfSQ==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 867100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "d57dea20-451c-469a-a930-143d75bfa3ce",
+        "time": "2024-04-01T13:32:50.206569428+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1606,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVDEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "payloads": [
+                {
+                    "type": "serverID",
+                    "id": "0a01445a4700039f8fd4"
+                },
+                {
+                    "register": {
+                        "filterId": 0,
+                        "filterActive": true,
+                        "unit": "Wh",
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "value": 153000,
+                                "valid": true
+                            }
+                        ]
+                    },
+                    "type": "filter"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "filterId": 1,
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "value": 0,
+                                "valid": true
+                            }
+                        ],
+                        "filterActive": true,
+                        "unit": "Wh"
+                    }
+                }
+            ],
+            "msgInfo": {
+                "msgIdx": 67,
+                "msgNum": 1,
+                "msgCnt": 1
+            },
+            "type": "app",
+            "header": {
+                "version": 1,
+                "deviceType": "SML Klax",
+                "batteryPerc": 100,
+                "configured": true,
+                "connTest": false,
+                "meterType": "SML"
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 37089,
+                "rssi": -51,
+                "snr": 9.2,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "E1bNUw==",
+                "metadata": {
+                    "region_config_id": "eu868",
+                    "region_common_name": "EU868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 868500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "975a9139-cea8-4e75-bc77-6935428c3695",
+        "time": "2024-04-01T12:32:50.697+00:00",
+        "deviceInfo": {
+            "tenantId": "df15ec22-4714-4188-8781-67f8cdda5628",
+            "tenantName": "wireless",
+            "applicationId": "52af4f19-2c93-4497-96df-318e4b3198a9",
+            "applicationName": "general-device",
+            "deviceProfileId": "3bb8ae14-4a7e-4fae-b24b-daa8141ab83e",
+            "deviceProfileName": "alpha-omega-technology--klax-2.0-EU863-870",
+            "deviceName": "15700ed7-2ce9-41f2-b985-e42f581ce2e1",
+            "devEui": "bc9740fffe10c17e",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "008536b8",
+        "adr": true,
+        "dr": 5,
+        "fCnt": 1605,
+        "fPort": 3,
+        "confirmed": false,
+        "data": "BEVCEQMKAURaRwADn4/UAREPSBVqAEgVagBIFWoASBVqAAETDwAAAAAAAAAAAAAAAAAAAAA=",
+        "object": {
+            "type": "app",
+            "msgInfo": {
+                "msgNum": 1,
+                "msgCnt": 1,
+                "msgIdx": 66
+            },
+            "payloads": [
+                {
+                    "id": "0a01445a4700039f8fd4",
+                    "type": "serverID"
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "unit": "Wh",
+                        "filterActive": true,
+                        "filterId": 0,
+                        "values": [
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            },
+                            {
+                                "valid": true,
+                                "value": 153000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "filter",
+                    "register": {
+                        "filterId": 1,
+                        "values": [
+                            {
+                                "value": 0,
+                                "valid": true
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            },
+                            {
+                                "valid": true,
+                                "value": 0
+                            }
+                        ],
+                        "unit": "Wh",
+                        "filterActive": true
+                    }
+                }
+            ],
+            "header": {
+                "deviceType": "SML Klax",
+                "configured": true,
+                "connTest": false,
+                "batteryPerc": 100,
+                "version": 1,
+                "meterType": "SML"
+            }
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "44f926683e80c609",
+                "uplinkId": 17294,
+                "time": "2024-04-01T12:32:50.696907+00:00",
+                "timeSinceGpsEpoch": "1396009988.697s",
+                "fineTimeSinceGpsEpoch": "1396009988.582055969s",
+                "rssi": -106,
+                "snr": -8,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.30153,
+                    "longitude": 12.61864,
+                    "altitude": 245
+                },
+                "context": "WgLMfQ==",
+                "metadata": {
+                    "region_config_id": "eu868",
+                    "region_common_name": "EU868"
+                }
+            },
+            {
+                "gatewayId": "5fd1887596980f67",
+                "uplinkId": 40813,
+                "rssi": -51,
+                "snr": 11.2,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 55.35535,
+                    "longitude": 12.82412,
+                    "altitude": 511
+                },
+                "context": "2JLyxw==",
+                "metadata": {
+                    "region_common_name": "EU868",
+                    "region_config_id": "eu868"
+                }
+            }
+        ],
+        "txInfo": {
+            "frequency": 868300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    }
+]

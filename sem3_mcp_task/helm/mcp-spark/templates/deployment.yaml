@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-mcp-spark
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: mcp-spark
+    release: {{ .Release.Name }}
+spec:
+  replicas: {{ .Values.replicaCount | default 1 }}
+  selector:
+    matchLabels:
+      app: mcp-spark
+  template:
+    metadata:
+      labels:
+        app: mcp-spark
+        release: {{ .Release.Name }}
+    spec:
+      containers:
+      - name: mcp-spark
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy | default "IfNotPresent" }}
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        {{- range $key, $value := .Values.env }}
+        - name: {{ $key }}
+          value: {{ $value | quote }}
+        {{- end }}
+        resources:
+          {{- toYaml .Values.resources | nindent 10 }}
+      {{- if .Values.volumes }}
+      volumes:
+      {{- range .Values.volumes }}
+      - name: {{ .name }}
+        {{- if .hostPath }}
+        hostPath:
+          path: {{ .hostPath.path }}
+          type: {{ .hostPath.type | default "Directory" }}
+        {{- else if .persistentVolumeClaim }}
+        persistentVolumeClaim:
+          claimName: {{ .persistentVolumeClaim.claimName }}
+        {{- end }}
+      {{- end }}
+      {{- end }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-mcp-spark
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: mcp-spark
+    release: {{ .Release.Name }}
+spec:
+  type: {{ .Values.service.type | default "ClusterIP" }}
+  ports:
+  - port: {{ .Values.service.port | default 8000 }}
+    targetPort: http
+    protocol: TCP
+    name: http
+  selector:
+    app: mcp-spark
+    release: {{ .Release.Name }}

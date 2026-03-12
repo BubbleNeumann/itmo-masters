@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-mcp-kafka
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: mcp-kafka
+    release: {{ .Release.Name }}
+spec:
+  replicas: {{ .Values.replicaCount | default 1 }}
+  selector:
+    matchLabels:
+      app: mcp-kafka
+  template:
+    metadata:
+      labels:
+        app: mcp-kafka
+        release: {{ .Release.Name }}
+    spec:
+      containers:
+      - name: mcp-kafka
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy | default "IfNotPresent" }}
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        {{- range $key, $value := .Values.env }}
+        - name: {{ $key }}
+          value: {{ $value | quote }}
+        {{- end }}
+        resources:
+          {{- toYaml .Values.resources | nindent 10 }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-mcp-kafka
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: mcp-kafka
+    release: {{ .Release.Name }}
+spec:
+  type: {{ .Values.service.type | default "ClusterIP" }}
+  ports:
+  - port: {{ .Values.service.port | default 8000 }}
+    targetPort: http
+    protocol: TCP
+    name: http
+  selector:
+    app: mcp-kafka
+    release: {{ .Release.Name }}

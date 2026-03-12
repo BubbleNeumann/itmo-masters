@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: agent
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env:
+  MODEL_NAME: "phi-3.1-mini-4k-instruct"
+  MCP_KAFKA_URL: "http://mcp-kafka-mcp-kafka:8000/mcp"
+  MCP_SPARK_URL: "http://mcp-spark-mcp-spark:8000/mcp"
+  MCP_CLICKHOUSE_URL: "http://mcp-clickhouse-mcp-clickhouse:8000/mcp"
+service:
+  type: ClusterIP
+  port: 8000
+
+resources:
+  requests:
+    memory: "2Gi"
+    cpu: "250m"
+  limits:
+    memory: "4Gi"
+    cpu: "500m"

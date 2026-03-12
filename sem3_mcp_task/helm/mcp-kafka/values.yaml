@@ -1,0 +1,26 @@
+replicaCount: 1
+
+image:
+  repository: mcp-kafka
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env:
+  KAFKA_BOOTSTRAP_SERVERS: "kafka:9092"
+  KAFKA_USERNAME: "user1"
+  KAFKA_PASSWORD: "ARuWNm6rv7"
+  MCP_USER_ID: "agent"
+  AUDIT_LOG_PATH: "/var/log/audit.jsonl"
+  FASTMCP_JSON_RESPONSE: "true"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "200m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"

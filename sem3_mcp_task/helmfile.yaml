@@ -1,43 +1,89 @@
 repositories:
   - name: bitnami
     url: https://charts.bitnami.com/bitnami
+  - name: altinity
+    url: https://helm.altinity.com
 
 releases:
-  # Infrastructure
+  # Kafka
   - name: kafka
+    namespace: etl-pipeline
     chart: bitnami/kafka
-    version: 26.x.x  # latest compatible
+    version: 30.1.0
     values:
-      - persistence:
+      - image:
+          repository: bitnamilegacy/kafka
+          tag: 3.9.0-debian-12-r0
+        replicaCount: 1
+        kraft:
           enabled: true
-        metrics:
-          jmx:
-            enabled: true  # observability
+    wait: true
 
+  # Spark
   - name: spark
+    namespace: etl-pipeline
     chart: bitnami/spark
-    version: 9.x.x
+    version: 9.0.0
     values:
-      - metrics:
-          enabled: true  # For monitoring
+      - image:
+          repository: bitnamilegacy/spark
+          tag: 3.5.5-debian-12-r0
+        master:
+          replicaCount: 1
+        worker:
+          replicaCount: 1
+    wait: true
 
+  # ClickHouse - Corrected Standalone Configuration
   - name: clickhouse
-    chart: bitnami/clickhouse
-    version: 6.x.x
+    namespace: etl-pipeline
+    chart: altinity/clickhouse
+#    version: 0.22.0
     values:
-      - metrics:
-          enabled: true
+      - image:
+          repository: clickhouse/clickhouse-server
+          tag: 24.11
+          pullPolicy: Never
+        zookeeper:
+          enabled: false
+        keeper:
+          enabled: false
+        shards: 1
+        replicaCount: 1
+        persistence:
+          enabled: false
+    wait: true
 
-  # # Your custom MCP servers
-  # - name: mcp-kafka
-  #   chart: ./charts/mcp-kafka  # You create this
-  #   values:
-  #     - image:
-  #         repository: your-registry/mcp-kafka
-  #         tag: latest
+  # MCP Kafka
+  - name: mcp-kafka
+    namespace: etl-pipeline
+    chart: ./helm/mcp-kafka
+    needs:
+      - kafka
+    wait: true
 
-  # - name: mcp-spark
-  #   chart: ./charts/mcp-spark  # You create this
+  # MCP Spark
+  - name: mcp-spark
+    namespace: etl-pipeline
+    chart: ./helm/mcp-spark
+    needs:
+      - spark
+    wait: true
 
-  # - name: agent-pipeline
-  #   chart: ./charts/agent-pipeline  # You create this
+  # MCP ClickHouse
+  - name: mcp-clickhouse
+    namespace: etl-pipeline
+    chart: ./helm/mcp-clickhouse
+    needs:
+      - clickhouse
+    wait: true
+
+  # Agent
+  - name: agent
+    namespace: etl-pipeline
+    chart: ./helm/agent-pipeline
+    needs:
+      - mcp-kafka
+      - mcp-spark
+      - mcp-clickhouse
+    wait: true

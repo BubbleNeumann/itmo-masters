@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-mcp-kafka
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "8000"
+    prometheus.io/path: "/metrics"
+spec:
+  type: {{ .Values.service.type | default "ClusterIP" }}
+  ports:
+  - port: {{ .Values.service.port | default 8000 }}
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  - port: 8001  # Metrics port
+    targetPort: 8000
+    protocol: TCP
+    name: metrics
+  selector:
+    app: mcp-kafka

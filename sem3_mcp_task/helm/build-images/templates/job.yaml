@@ -1,0 +1,52 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: build-images-{{ randAlphaNum 5 | lower }}
+  annotations:
+    "helm.sh/hook": pre-install,pre-upgrade
+    "helm.sh/hook-weight": "-5"
+    "helm.sh/hook-delete-policy": hook-succeeded
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: docker-builder
+        image: docker:20.10-dind
+        command:
+        - /bin/sh
+        - -c
+        - |
+          # Wait for Docker daemon
+          until docker info; do sleep 2; done
+          
+          # Build images
+          cd /workspace
+          {{- range $name, $dockerfile := .Values.images }}
+          docker build -f {{ $dockerfile }} -t {{ $.Values.registry }}/{{ $name }}:latest .
+          docker push {{ $.Values.registry }}/{{ $name }}:latest
+          {{- end }}
+        volumeMounts:
+        - name: workspace
+          mountPath: /workspace
+        - name: docker-socket
+          mountPath: /var/run/docker.sock
+        env:
+        - name: DOCKER_HOST
+          value: tcp://localhost:2375
+      - name: dind
+        image: docker:20.10-dind
+        securityContext:
+          privileged: true
+        volumeMounts:
+        - name: docker-graph-storage
+          mountPath: /var/lib/docker
+      volumes:
+      - name: workspace
+        hostPath:
+          path: {{ .Values.workspace | default "/app" }}
+          type: Directory
+      - name: docker-socket
+        emptyDir: {}
+      - name: docker-graph-storage
+        emptyDir: {}

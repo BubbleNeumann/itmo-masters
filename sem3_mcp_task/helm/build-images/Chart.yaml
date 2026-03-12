@@ -1,0 +1,5 @@
+apiVersion: v2
+name: build-images
+description: Build and load Docker images to kind
+type: application
+version: 0.1.0

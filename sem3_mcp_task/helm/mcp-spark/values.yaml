@@ -1,0 +1,25 @@
+# helm/mcp-spark/values.yaml
+replicaCount: 1
+
+image:
+  repository: mcp-spark
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env:
+  SPARK_MASTER: "spark://spark-master:7077"
+  SPARK_HOME: "/opt/bitnami/spark"
+  MCP_USER_ID: "agent"
+  FASTMCP_JSON_RESPONSE: "true"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "200m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
